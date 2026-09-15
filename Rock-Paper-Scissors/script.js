@@ -5,7 +5,7 @@ let msg = document.querySelector(".message");
 let uScore = document.querySelector(".uScore");
 let pScore = document.querySelector(".pScore");
 let newG = document.querySelector(".newGame");
-//Adding to repo
+//Successfully Added
 const genPCChoice = () => {
   let options = ["rock", "paper", "scissors"];
   let randomIdx = Math.floor(Math.random() * 3);
