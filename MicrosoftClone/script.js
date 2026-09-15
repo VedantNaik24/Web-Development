@@ -3,7 +3,7 @@ let ham = document.querySelector(".hamburger");
 let list = document.querySelector(".list");
 let ls = list.classList;
 let  flag= true;
-
+//Test commit
 ham.addEventListener("click",()=>{
   if(flag===true){
     ls.remove("-translate-x-44");
