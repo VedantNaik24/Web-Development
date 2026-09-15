@@ -1,0 +1,19 @@
+{
+  "name": "microsoft-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "post": "^0.0.1",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.4.0"
+  }
+}

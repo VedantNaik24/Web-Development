@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="inputAmount">
+            <label for="">Enter Amount: </label>
+            <input type="text">
+        </div>
+        <div class="container">
+            <div class="select">
+                <img class="fromImg" src="https://countryflagsapi.netlify.app/flag/us.svg">
+                <select class="dropDown"  name="From" id="from">
+                    <option value="">From</option>
+                </select>
+            </div>
+            <div class="exchange">
+                <img src="exchange.jpg" alt="image">
+            </div>
+            <div class="select">
+                <img class="toImg" src="https://countryflagsapi.netlify.app/flag/in.svg"">
+                <select class="dropDown" name="to" id="to">
+                    <option value="">To</option>
+                </select>
+            </div>
+        </div>
+        <div class="msg">1 USD = 80 INR</div>
+        <div class="btn">
+            <button>Get Exchange Rate</button>
+        </div>
+    </form>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
